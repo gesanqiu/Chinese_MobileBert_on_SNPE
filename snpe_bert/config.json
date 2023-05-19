@@ -1,0 +1,19 @@
+{
+    "model-path":"/home/tc-eb5/local/snpe_bert/mobilebert_model_64_cut_ful.dlc",
+    "vocab-path":"/home/tc-eb5/local/snpe_bert/vocab.txt",
+    "input-weights-path":"/home/tc-eb5/local/snpe_bert/mobilebert_gather54_weights.bin",
+    "token-weights-path":"/home/tc-eb5/local/snpe_bert/mobilebert_gather99_weights.bin",
+    "runtime":"CPU",
+    "input-layers":[
+        "input_ids",
+        "attention_mask"
+    ],
+    "output-layers":[
+        "Add_702",
+        "Reshape_post_Gather_704"
+    ],
+    "output-tensors":[
+        "onnx::Gather_1626",
+        "1628"
+    ]
+}
